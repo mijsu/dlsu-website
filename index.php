@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De La Salle University</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans overflow-x-hidden">
+<!-- Navigation -->
+<header class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+    <div class="container mx-auto flex justify-between items-center p-4">
+        
+        <!-- Logo and University Name -->
+        <div class="flex items-center space-x-3">
+            <a href="index.php">
+                <img src="images/logo.png" alt="DLSU Logo" class="h-10 w-auto">
+            </a>
+            <h1 class="text-lg font-bold">
+                <a href="index.php" class="hover:text-green-700 transition duration-300">
+                    De La Salle University
+                </a>
+            </h1>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="campuslife.php" class="hover:text-green-600">Campus Life</a></li>
+                <li><a href="admissions.php" class="hover:text-green-600">Admissions</a></li>
+                <li><a href="academics.php" class="hover:text-green-600">Academics</a></li>
+                <li><a href="about.php" class="hover:text-green-600">About</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+    <!-- Hero Section with Auto-Slideshow & Animated Squares -->
+    <section id="hero" class="relative h-screen flex flex-col justify-center items-center text-center text-white bg-cover bg-center transition-all duration-500" style="background-image: url('images/bgslideshow1.png');">
+        
+        <!-- Canvas for animated squares -->
+        <canvas id="canvas-bg"></canvas>
+
+        <!-- Hero content -->
+<!-- Hero Modal (Toast Lightbox) -->
+<div id="hero-modal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-80 hidden z-[9999]">
+    <div class="relative w-[900px] min-h-[400px] text-center p-12 rounded-lg shadow-lg bg-cover bg-center" 
+        style="background-image: url('images/toastbg1.png'); background-size: cover; background-repeat: no-repeat;">
+
+        <!-- Content -->
+        <div class="relative z-10 flex flex-col justify-center items-center h-full p-8">
+            <div class="mt-6 flex justify-center space-x-6">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+    </section>
+<!-- News Section -->
+<section class="py-16 text-center relative bg-cover bg-center" style="background-image: url('images/bg3.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div> <!-- Dark overlay -->
+    <div class="relative z-10">
+        <h2 class="text-3xl font-bold text-white">In The News</h2>
+        <div class="mt-8 flex justify-center space-x-4">
+            <div class="bg-white p-4 shadow-md">
+                <img src="images/news1.png" class="w-full h-40 object-cover">
+                <p class="mt-2 font-semibold">DLSU Celebrates 10 Years of Excellence</p>
+            </div>
+            <div class="bg-white p-4 shadow-md">
+                <img src="images/news2.png" class="w-full h-40 object-cover">
+                <p class="mt-2 font-semibold">Support for ESGOM 2 Program</p>
+            </div>
+            <div class="bg-white p-4 shadow-md">
+                <img src="images/news3.png" class="w-full h-40 object-cover">
+                <p class="mt-2 font-semibold">DLSU Holds Topping Off Ceremony</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Giving Section -->
+<section class="py-72 text-center relative bg-cover bg-center text-white" style="background-image: url('images/givingbg1.png');">
+    <div class="relative z-10">
+    </div>
+</section>
+
+<!-- Sports Section -->
+<section class="py-16 text-center relative bg-cover bg-center" style="background-image: url('images/bg1.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div> <!-- Dark overlay -->
+    <div class="relative z-10">
+        <h2 class="text-3xl font-bold text-white">DLSU Sports</h2>
+        <div class="mt-8 flex justify-center space-x-4">
+            <div class="bg-white p-4 shadow-md">
+                <img src="images/sports1.png" class="w-full h-40 object-cover">
+                <p class="mt-2 font-semibold">Green Jins Win Taekwondo Championship</p>
+            </div>
+            <div class="bg-white p-4 shadow-md">
+                <img src="images/sports2.png" class="w-full h-40 object-cover">
+                <p class="mt-2 font-semibold">DLSU Woodpushers Dominate Chess League</p>
+            </div>
+            <div class="bg-white p-4 shadow-md">
+                <img src="images/sports3.png" class="w-full h-40 object-cover">
+                <p class="mt-2 font-semibold">Hungry for More: DLSU Booters Dominate</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter Section -->
+<section class="py-16 text-center relative bg-cover bg-center" style="background-image: url('images/newsletterbg1.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div> <!-- Dark overlay -->
+    <div class="relative z-10">
+        <h2 class="text-3xl font-bold text-white">Newsletter</h2>
+        <p class="mt-2 text-white">Stay updated with the latest news from DLSU.</p>
+        <div class="mt-4">
+            <input type="email" placeholder="Enter your email" class="px-4 py-2 border rounded">
+            <button class="bg-green-600 text-white px-4 py-2 rounded">Subscribe</button>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="relative text-white text-center py-16 bg-cover bg-center" style="background-image: url('images/footerbg.jpg'); height: 300px;">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div> <!-- Dark overlay -->
+    <div class="relative z-10 flex flex-col items-center justify-center h-full">
+        <p class="text-lg">&copy; 2025 De La Salle University. All rights reserved.</p>
+        <p class="mt-2 text-sm">Follow us on social media for updates.</p>
+    </div>
+</footer>
+
+
+
+<script defer src="src./script.js"></script>

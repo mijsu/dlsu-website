@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De La Salle University</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans overflow-x-hidden">
+<header class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+    <div class="container mx-auto flex justify-between items-center p-4">
+        
+        <!-- Logo and University Name -->
+        <div class="flex items-center space-x-3">
+            <a href="index.php">
+                <img src="images/logo.png" alt="DLSU Logo" class="h-10 w-auto">
+            </a>
+            <h1 class="text-lg font-bold">
+                <a href="index.php" class="hover:text-green-700 transition duration-300">
+                    De La Salle University
+                </a>
+            </h1>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="campuslife.php" class="hover:text-green-600">Campus Life</a></li>
+                <li><a href="admissions.php" class="hover:text-green-600">Admissions</a></li>
+                <li><a href="academics.php" class="hover:text-green-600">Academics</a></li>
+                <li><a href="about.php" class="hover:text-green-600">About</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<body class="font-sans bg-gray-100">
+
+    <!-- Hero Section -->
+    <section class="relative w-full h-[60vh] bg-cover bg-center" style="background-image: url('images/admissionbg1.jpg');">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    </section>
+
+  <!-- Admission Cards -->
+<section class="relative w-full py-12">
+    <!-- Background Image -->
+    <div class="absolute inset-0 w-full h-full bg-cover bg-center" style="background-image: url('images/admissionbg2.jpg');"></div>
+
+    <!-- Overlay for better readability -->
+    <div class="absolute inset-0 bg-black bg-opacity-30"></div>
+
+    <!-- Content Wrapper -->
+    <div class="relative z-10 container mx-auto px-6 grid md:grid-cols-3 gap-6">
+        <!-- Undergraduate -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+            <div class="p-6">
+                <h3 class="text-xl font-bold text-green-700">Undergraduate</h3>
+                <p class="text-sm font-semibold text-gray-700">Undergraduate Admissions</p>
+                <img src="images/adbg1.jpg" alt="Undergraduate Image" class="w-full h-40 object-cover mt-4">
+                <p class="text-gray-600 mt-4">DLSU-Manila welcomes high school graduates, college transferees, and degree applicants.</p>
+                <a href="#" class="mt-4 inline-block bg-green-700 text-white px-4 py-2 rounded hover:bg-green-900 transition">Explore →</a>
+            </div>
+        </div>
+
+        <!-- Graduate -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+            <div class="p-6">
+                <h3 class="text-xl font-bold text-green-700">Graduate</h3>
+                <p class="text-sm font-semibold text-gray-700">Graduate Admissions</p>
+                <img src="images/adbg2.jpg" alt="Graduate Image" class="w-full h-40 object-cover mt-4">
+                <p class="text-gray-600 mt-4">The DLSU Graduate Studies program promotes scholarship and research.</p>
+                <a href="#" class="mt-4 inline-block bg-green-700 text-white px-4 py-2 rounded hover:bg-green-900 transition">Explore →</a>
+            </div>
+        </div>
+
+        <!-- Scholarships -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+            <div class="p-6">
+                <h3 class="text-xl font-bold text-green-700">Scholarships</h3>
+                <p class="text-sm font-semibold text-gray-700">Scholarships @ DLSU</p>
+                <img src="images/adbg3.jpg" alt="Scholarships Image" class="w-full h-40 object-cover mt-4">
+                <p class="text-gray-600 mt-4">DLSU offers various scholarships and financial assistance programs.</p>
+                <a href="#" class="mt-4 inline-block bg-green-700 text-white px-4 py-2 rounded hover:bg-green-900 transition">Explore →</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+   <!-- Integrated School Admissions -->
+<section class="relative w-full py-12">
+    <!-- Background Image -->
+    <div class="absolute inset-0 w-full h-full bg-cover bg-center" style="background-image: url('images/bg3.jpg');"></div>
+
+    <!-- Overlay for better readability -->
+    <div class="absolute inset-0 bg-black bg-opacity-30"></div>
+
+    <!-- Content Wrapper -->
+    <div class="relative z-10 container mx-auto px-6 grid md:grid-cols-3 gap-6">
+        <!-- Grade School -->
+        <div class="bg-green-700 text-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+            <div class="p-6">
+                <h3 class="text-xl font-bold">Grade School</h3>
+                <p class="text-sm font-semibold">Integrated School Admission</p>
+                <img src="images/adbg4.jpg" alt="Grade School Image" class="w-full h-40 object-cover mt-4">
+                <p class="mt-4">DLSU emphasizes a science-oriented curriculum from kindergarten to high school.</p>
+                <a href="#" class="mt-4 inline-block bg-white text-green-700 px-4 py-2 rounded hover:bg-gray-300 transition">Explore →</a>
+            </div>
+        </div>
+
+        <!-- Junior High School -->
+        <div class="bg-green-700 text-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+            <div class="p-6">
+                <h3 class="text-xl font-bold">Junior High School</h3>
+                <p class="text-sm font-semibold">Integrated School Admission</p>
+                <img src="images/adbg5.jpg" alt="Junior High Image" class="w-full h-40 object-cover mt-4">
+                <p class="mt-4">Developing a holistic young generation with science and values at its core.</p>
+                <a href="#" class="mt-4 inline-block bg-white text-green-700 px-4 py-2 rounded hover:bg-gray-300 transition">Explore →</a>
+            </div>
+        </div>
+
+        <!-- Senior High School -->
+        <div class="bg-green-700 text-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+            <div class="p-6">
+                <h3 class="text-xl font-bold">Senior High School</h3>
+                <p class="text-sm font-semibold">Integrated School Admission</p>
+                <img src="images/adbg6.jpg" alt="Senior High Image" class="w-full h-40 object-cover mt-4">
+                <p class="mt-4">DLSU Senior High provides a premier school experience within a university setting.</p>
+                <a href="#" class="mt-4 inline-block bg-white text-green-700 px-4 py-2 rounded hover:bg-gray-300 transition">Explore →</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer -->
+<footer class="relative text-white text-center py-16 bg-cover bg-center" style="background-image: url('images/footerbg.jpg'); height: 300px;">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div> <!-- Dark overlay -->
+    <div class="relative z-10 flex flex-col items-center justify-center h-full">
+        <p class="text-lg">&copy; 2025 De La Salle University. All rights reserved.</p>
+        <p class="mt-2 text-sm">Follow us on social media for updates.</p>
+    </div>
+</footer>
+
+</body>
+</html>

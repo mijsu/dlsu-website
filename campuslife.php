@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | DLSU</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans overflow-x-hidden">
+<header class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+    <div class="container mx-auto flex justify-between items-center p-4">
+        
+        <!-- Logo and University Name -->
+        <div class="flex items-center space-x-3">
+            <a href="index.php">
+                <img src="images/logo.png" alt="DLSU Logo" class="h-10 w-auto">
+            </a>
+            <h1 class="text-lg font-bold">
+                <a href="index.php" class="hover:text-green-700 transition duration-300">
+                    De La Salle University
+                </a>
+            </h1>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="campuslife.php" class="hover:text-green-600">Campus Life</a></li>
+                <li><a href="admissions.php" class="hover:text-green-600">Admissions</a></li>
+                <li><a href="academics.php" class="hover:text-green-600">Academics</a></li>
+                <li><a href="about.php" class="hover:text-green-600">About</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<body class="bg-gray-100 font-sans">
+
+    <!-- Header Section -->
+    <section class="relative w-full h-[30vh] bg-cover bg-center" style="background-image: url('images/admissionbg1.jpg');">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="absolute inset-0 flex items-center px-10">
+            <h1 class="text-white text-5xl font-bold uppercase">Campus Life</h1>
+        </div>
+    </section>
+
+    <!-- Breadcrumb -->
+    <div class="container mx-auto px-6 py-4 text-gray-600 text-sm">
+        <a href="#" class="hover:underline">Home</a> &gt; <span class="text-green-700 font-semibold">Campus Life</span>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container mx-auto px-6 py-6 grid md:grid-cols-3 gap-6">
+
+        <!-- Left Content (2/3) -->
+        <div class="md:col-span-2 space-y-6">
+
+            <!-- Large Top Image -->
+            <img src="images/admissionbg1.jpg" class="w-full rounded-lg shadow-md">
+
+            <!-- Text Content -->
+            <p class="text-gray-700 text-justify">
+                De La Salle University positions itself as a leader in molding human resources who serve the church and the nation. 
+                It is a Catholic coeducational institution founded in 1911 by the Brothers of the Christian Schools. 
+                The University is a hub for higher education training renowned for its academic excellence, prolific and relevant research, and involved community service.
+            </p>
+            <p class="text-gray-700 text-justify">
+                Nestled in the heart of Manila, De La Salle University is home to local and international students seeking quality education for a brighter future ahead. 
+                It is situated in a vibrant city where culture and diversity is well manifested.
+            </p>
+
+            <!-- Two-Column Image Grid -->
+            <div class="grid grid-cols-2 gap-4">
+                <img src="images/abbg1.jpg" class="rounded-lg shadow-md">
+                <img src="images/abbg2.jpg" class="rounded-lg shadow-md">
+            </div>
+
+            <!-- Four Content Cards -->
+            <div class="grid md:grid-cols-2 gap-6 mt-6">
+                <!-- About DLSU -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-green-700 font-bold text-lg">About DLSU</h3>
+                    <ul class="mt-2 space-y-1 text-gray-700 text-sm">
+                        <li>Quick Facts and Figures</li>
+                        <li>Vision-Mission</li>
+                        <li>Lasallian Guiding Principles</li>
+                        <li>History and Traditions</li>
+                        <li>University Governance</li>
+                    </ul>
+                </div>
+
+                <!-- Research -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-green-700 font-bold text-lg">Research</h3>
+                    <ul class="mt-2 space-y-1 text-gray-700 text-sm">
+                        <li>Research at DLSU</li>
+                        <li>Research Centers</li>
+                        <li>Research Publications</li>
+                        <li>Research Offices</li>
+                        <li>Research Abstracts</li>
+                    </ul>
+                </div>
+                </div>
+
+            <!-- Two-Column Image Grid -->
+            <div class="grid grid-cols-2 gap-4">
+                <img src="images/abbg3.jpg" class="rounded-lg shadow-md">
+                <img src="images/abbg4.jpg" class="rounded-lg shadow-md">
+       
+
+
+                <!-- Community Engagement -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-green-700 font-bold text-lg">Community Engagement</h3>
+                    <ul class="mt-2 space-y-1 text-gray-700 text-sm">
+                        <li>The Lasallian Mission</li>
+                        <li>Community Engagement Framework</li>
+                        <li>Community Engagement Projects</li>
+                        <li>Community Engagement Publications "Involved"</li>
+                    </ul>
+                </div>
+
+                <!-- Global -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-green-700 font-bold text-lg">Global</h3>
+                    <ul class="mt-2 space-y-1 text-gray-700 text-sm">
+                        <li>International Students</li>
+                        <li>Visiting Professors</li>
+                        <li>International Short Courses</li>
+                        <li>Exchange Programs</li>
+                        <li>International Student Guide</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Right Sidebar (1/3) -->
+        <div class="space-y-6">
+            <!-- DLSU News -->
+            <div class="bg-green-700 text-white p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-bold">DLSU NEWS</h2>
+                <ul class="mt-4 space-y-2">
+                    <li class="text-sm"><a href="#" class="hover:underline">De La Salle University celebrates 50 years of transformative education</a></li>
+                    <li class="text-sm"><a href="#" class="hover:underline">DLSU Statement of Support for EDCOM 2</a></li>
+                    <li class="text-sm"><a href="#" class="hover:underline">DLSU Holds Topping-Off Ceremony for the Evelyn D. Ang Hall</a></li>
+                    <li class="text-sm"><a href="#" class="hover:underline">DLSU leads in 5 fields in latest university subject rankings</a></li>
+                </ul>
+            </div>
+
+            <!-- DLSU At A Glance -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-bold text-green-700">DLSU AT A GLANCE</h2>
+                <ul class="mt-4 space-y-2 text-gray-700 text-sm">
+                    <li>DLSU is a multi-campus university in Manila, Makati, Taguig (BGC), and Laguna.</li>
+                    <li>It is a Catholic coeducational institution founded in 1911 by the Brothers of the Christian Schools.</li>
+                    <li>As of 2017, DLSU has 1,112 Teaching Academic Staff.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<!-- Footer -->
+<footer class="relative text-white text-center py-16 bg-cover bg-center" style="background-image: url('images/footerbg.jpg'); height: 300px;">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div> <!-- Dark overlay -->
+    <div class="relative z-10 flex flex-col items-center justify-center h-full">
+        <p class="text-lg">&copy; 2025 De La Salle University. All rights reserved.</p>
+        <p class="mt-2 text-sm">Follow us on social media for updates.</p>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision Mission - DLSU</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans overflow-x-hidden">
+    <!-- Navigation -->
+    <header class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+    <div class="container mx-auto flex justify-between items-center p-4">
+        
+        <!-- Logo and University Name -->
+        <div class="flex items-center space-x-3">
+            <a href="index.php">
+                <img src="images/logo.png" alt="DLSU Logo" class="h-10 w-auto">
+            </a>
+            <h1 class="text-lg font-bold">
+                <a href="index.php" class="hover:text-green-700 transition duration-300">
+                    De La Salle University
+                </a>
+            </h1>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="campuslife.php" class="hover:text-green-600">Campus Life</a></li>
+                <li><a href="admissions.php" class="hover:text-green-600">Admissions</a></li>
+                <li><a href="academics.php" class="hover:text-green-600">Academics</a></li>
+                <li><a href="about.php" class="hover:text-green-600">About</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<body class="bg-gray-100">
+
+    <!-- Hero Section with Background Image -->
+    <section class="relative w-full h-[50vh] flex items-center justify-center text-white">
+        <div class="absolute inset-0 bg-[url('images/cmbg1.png')] bg-cover bg-center"></div>
+        <div class="absolute inset-0 bg-green-700 opacity-50"></div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="max-w-5xl mx-auto px-6 py-16 bg-white text-center rounded-lg shadow-lg -mt-16 relative">
+        <h2 class="text-green-700 text-2xl font-bold mb-4">Preamble</h2>
+        <p class="text-gray-700 leading-relaxed">
+            De La Salle University is an internationally recognized Catholic university in the Philippines established 
+            by the Brothers of the Christian Schools in 1911. Inspired by the charism of St. John Baptist de La Salle, 
+            the University community, together and by association, provides quality human and Christian education 
+            by teaching minds, touching hearts, and transforming lives.
+        </p>
+
+        <h2 class="text-green-700 text-2xl font-bold mt-12 mb-4">Vision Mission</h2>
+        <p class="text-gray-700 leading-relaxed">
+            A leading learner-centered and research University bridging faith and scholarship, attuned to a 
+            sustainable Earth, and in the service of Church and society, especially the poor and marginalized.
+        </p>
+    </section>
+    <footer class="relative text-white text-center py-16 bg-cover bg-center" style="background-image: url('images/footerbg.jpg'); height: 300px;">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div> <!-- Dark overlay -->
+    <div class="relative z-10 flex flex-col items-center justify-center h-full">
+        <p class="text-lg">&copy; 2025 De La Salle University. All rights reserved.</p>
+        <p class="mt-2 text-sm">Follow us on social media for updates.</p>
+    </div>
+</footer>
+</body>
+</html>
