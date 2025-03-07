@@ -1,5 +1,8 @@
 {
     "cleanUrls": true,
-    "rewrites": [{ "source": "/images/(.*)", "destination": "/images/$1" }]
+    "rewrites": [
+      { "source": "/images/(.*)", "destination": "/images/$1" },
+      { "source": "/script.js", "destination": "/src/script.js" }
+    ]
   }
   
