@@ -1,6 +1,5 @@
 {
-    "routes": [
-      { "src": "/(.*)", "dest": "/index.html" }
-    ]
+    "cleanUrls": true,
+    "rewrites": [{ "source": "/images/(.*)", "destination": "/images/$1" }]
   }
   
